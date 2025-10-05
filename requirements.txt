@@ -1,0 +1,27 @@
+# FastAPI backend
+fastapi>=0.111.0
+uvicorn[standard]>=0.23.0
+python-dotenv>=1.0.0
+pydantic>=1.10.11
+aiofiles>=23.1.0
+
+# LangChain & embeddings
+langchain>=0.1.230
+sentence-transformers>=2.2.2
+transformers>=4.33.2
+torch>=2.1.0
+
+# Vector DB
+pinecone>=2.2.1
+tiktoken>=0.4.2
+
+# File upload / parsing
+python-multipart>=0.0.6
+unstructured>=0.8.12  # optional, for PDFs
+
+# Streamlit UI
+streamlit>=1.25.0
+requests>=2.32.0
+
+# Utilities
+uuid>=1.30
