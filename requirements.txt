@@ -7,6 +7,7 @@ aiofiles>=23.1.0
 
 # LangChain & embeddings
 langchain>=0.1.230
+langchain-community>=0.0.20
 sentence-transformers>=2.2.2
 transformers>=4.33.2
 torch>=2.1.0
